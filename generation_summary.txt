@@ -1,0 +1,29 @@
+MRR WATERFALL DATASET -- GENERATION SUMMARY (seed=42)
+============================================================
+
+customers.csv -- 5,000 rows, 9 columns
+    company_size_employees: 10.2% null
+    account_owner: 35.5% null
+
+subscriptions_plan_history.csv -- 8,974 rows, 9 columns
+    price_per_seat: 0.2% null
+    valid_to: 55.7% null
+    change_reason: 1.7% null
+
+invoices.csv -- 126,852 rows, 9 columns
+    payment_date: 5.9% null
+    discount_pct: 84.8% null
+
+support_tickets.csv -- 45,658 rows, 7 columns
+    resolved_date: 9.1% null
+    csat_score: 55.1% null
+
+marketing_spend.csv -- 288 rows, 6 columns
+    leads_generated: 33.3% null
+
+============================================================
+KEY FIGURES
+  Cumulative logo churn (of 5,000 signed up in the window): 30.8%
+  Avg plan-history rows/customer: 1.79
+  Plan mix: Starter 38.9%, Growth 36.8%, Pro 17.7%, Enterprise 6.6%
+  Invoice status mix: Paid 92.0%, Failed 3.9%, Refunded 2.0%, Pending 2.0%
